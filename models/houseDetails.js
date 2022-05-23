@@ -52,7 +52,6 @@ const houseDetailsSchema = mongoose.Schema({
   ],
   houseBookedStatus: {
     type: Boolean,
-    required: true,
     default: false,
   },
 });
